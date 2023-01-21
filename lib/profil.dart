@@ -15,7 +15,7 @@ class _profileDevPageState extends State<profileDev> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 179, 22, 179),
+      backgroundColor: Color.fromARGB(255, 126, 165, 207),
       appBar: AppBar(
         title: const Text(
           'Profil Developer',
@@ -30,7 +30,7 @@ class _profileDevPageState extends State<profileDev> {
               width: 350,
               child: CircleAvatar(
                 radius: 130,
-                backgroundColor: Color.fromARGB(255, 147, 50, 107),
+                backgroundColor: Color.fromARGB(255, 149, 198, 180),
                 child: CircleAvatar(
                   radius: 120,
                   backgroundImage: NetworkImage(
@@ -41,7 +41,7 @@ class _profileDevPageState extends State<profileDev> {
             ),
             const SizedBox(height: 25),
             const Text('ARDIANSYAH',
-                style: TextStyle(: FontWeight.bold, fontSize: 20)),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             const SizedBox(height: 10),
             const Text('2210020096',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),

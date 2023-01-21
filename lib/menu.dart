@@ -18,7 +18,7 @@ class _menuAwalPageState extends State<menuAwal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 215, 25, 212),
+      backgroundColor: Color.fromARGB(255, 207, 175, 207),
       appBar: AppBar(
         title: const Text(
           'MENU',
@@ -41,9 +41,9 @@ class _menuAwalPageState extends State<menuAwal> {
                 },
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(
-                      Color.fromARGB(255, 164, 23, 164)),
+                      Color.fromARGB(255, 100, 98, 100)),
                   foregroundColor: MaterialStateProperty.all<Color>(
-                      Color.fromARGB(255, 174, 40, 40)),
+                      Color.fromARGB(255, 251, 250, 250)),
                 ),
                 child: const Text('Hitung Luas Persegi'),
               ),

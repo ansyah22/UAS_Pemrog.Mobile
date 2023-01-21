@@ -19,7 +19,7 @@ class _hitungLingkaranPageState extends State<hitungLingkaran> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade50,
+      backgroundColor: Color.fromARGB(255, 214, 159, 214),
       appBar: AppBar(
         title: const Text(
           'Hitung Luas Lingkaran',

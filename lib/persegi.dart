@@ -21,7 +21,7 @@ class _hitungPersegiPageState extends State<hitungPersegi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 201, 27, 201),
+      backgroundColor: Color.fromARGB(255, 214, 159, 214),
       appBar: AppBar(
         title: const Text(
           'Hitung Luas Persegi',
